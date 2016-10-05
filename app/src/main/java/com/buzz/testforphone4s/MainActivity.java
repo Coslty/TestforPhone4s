@@ -17,7 +17,8 @@ public class MainActivity extends Activity implements SensorEventListener {
     private SensorManager sensorManager;
     private Sensor sensor;
     TextView ambient_temp;
-
+    String hello = "hello";
+    String hello2 = "world";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
